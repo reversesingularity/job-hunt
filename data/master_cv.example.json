@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Your Name",
+    "label": "Data, Analytics & Reporting Professional",
+    "email": "you@example.com",
+    "phone": "+64 ...",
+    "summary": "One honest paragraph about who you are. Only verified facts.",
+    "location": {
+      "city": "Auckland",
+      "countryCode": "NZ"
+    },
+    "profiles": [
+      { "network": "GitHub", "url": "https://github.com/yourhandle" },
+      { "network": "LinkedIn", "url": "https://linkedin.com/in/yourprofile" }
+    ]
+  },
+  "skills": [
+    { "name": "reporting", "level": "core", "keywords": ["reporting", "dashboards"] },
+    { "name": "sql", "level": "working", "keywords": ["sql", "postgresql"] },
+    { "name": "python", "level": "working", "keywords": ["python", "pandas"] }
+  ],
+  "work": [
+    {
+      "id": "work_0",
+      "name": "Employer Name",
+      "position": "Job Title",
+      "startDate": "2017-02",
+      "endDate": "",
+      "location": "Auckland, New Zealand",
+      "highlights": [
+        "A bullet that is 100% true and defensible in an interview.",
+        "Another real accomplishment with measurable outcome if you have one."
+      ],
+      "meta": {
+        "bullet_skills": {
+          "0": ["reporting", "sql"],
+          "1": ["process improvement", "stakeholder communication"]
+        }
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "project_0",
+      "name": "Portfolio Project Name",
+      "highlights": [
+        "Describe self-initiated technical work — not paid employment."
+      ],
+      "meta": {
+        "bullet_skills": {
+          "0": ["python", "etl", "docker"]
+        }
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "area": "Commerce",
+      "studyType": "BSc",
+      "endDate": "2004"
+    }
+  ],
+  "certificates": [
+    { "name": "Certification Name — Issuer" }
+  ]
+}

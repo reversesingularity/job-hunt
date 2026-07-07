@@ -1,0 +1,1 @@
+"""JobHunt MCP server."""

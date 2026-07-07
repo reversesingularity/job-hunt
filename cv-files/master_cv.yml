@@ -1,0 +1,145 @@
+# =============================================================================
+# MASTER CV — Christopher Modina  (rebuilt from your real 2021 CV + recent work)
+# =============================================================================
+# Everything here is drawn from your actual 2021 CV, updated with your recent
+# certifications and portfolio. Verify dates and [BRACKETS], and set skill
+# levels to match how you'd honestly describe yourself TODAY.
+# =============================================================================
+
+name: "Christopher Modina"
+location: "Mount Wellington, Auckland, New Zealand"
+contact:
+  email: "cmodina70@gmail.com"
+  phone: "021 158 6076"
+  github: "github.com/reversesingularity"
+  linkedin: "linkedin.com/in/christopher-modina-78097622"
+
+headline: >
+  Experienced analytics and reporting professional with a data-analyst
+  background in telecommunications network performance, government
+  decision-making and process-improvement experience, and current
+  defence-sector reporting work — now combining that with modern data
+  engineering skills (Python, SQL, dbt, BI).
+
+skills:
+  # Analytics / BI — backed by a real analyst role and years of reporting
+  - {name: "reporting", level: core}
+  - {name: "stakeholder communication", level: core}
+  - {name: "advanced excel", level: core}
+  - {name: "sql", level: working}
+  - {name: "power bi", level: working}
+  - {name: "etl", level: working}
+  - {name: "data modelling", level: working}
+  - {name: "data warehouse", level: working}
+  - {name: "data visualisation", level: working}
+  - {name: "dashboards", level: working}
+  - {name: "crystal reports", level: working}
+  - {name: "process improvement", level: working}
+  - {name: "customer support", level: core}
+  - {name: "problem solving", level: core}
+  # Modern data engineering — recent certs + portfolio (be honest: working)
+  - {name: "python", level: working}
+  - {name: "pandas", level: working}
+  - {name: "dbt", level: working}
+  - {name: "duckdb", level: working}
+  - {name: "postgresql", level: working}
+  - {name: "fastapi", level: working}
+  - {name: "streamlit", level: working}
+  - {name: "docker", level: working}
+  - {name: "git", level: working}
+  - {name: "rag", level: familiar}
+  - {name: "llm", level: familiar}
+
+experience:
+  - role: "Customer Support Agent — Defence Shared Services Group (DSSG)"
+    employer: "New Zealand Defence Force"
+    location: "Auckland, New Zealand"
+    start: "Feb 2017"
+    end: "Present"
+    bullets:
+      - text: "Monitor, update and maintain device databases (mobile fleet and MFD printer fleet), and complete monthly and ad-hoc reporting for the DSSG."
+        skills: ["reporting", "sql", "data modelling", "problem solving"]
+      - text: "Participate in DSSG process-improvement working groups, adopting continuous improvement to add value for internal and external customers."
+        skills: ["process improvement", "stakeholder communication"]
+      - text: "Manage vendor and supplier relationships (Vodafone, Fuji Xerox), NZDF contract administration, and accounts payable/receivable."
+        skills: ["stakeholder communication", "customer support"]
+      - text: "Awarded the NZDF DSSG 2019 People's Choice Trophy (innovation and relationship building) and 2019 Supporting Those Who Serve Award (customer service)."
+        skills: ["customer support", "stakeholder communication"]
+
+  - role: "Network Performance Analyst — SCCNOC"
+    employer: "Spark New Zealand (formerly Telecom New Zealand)"
+    location: "Auckland, New Zealand"
+    start: "2012"
+    end: "2013"
+    bullets:
+      - text: "Applied reporting, data modelling and analytics to Southern Cross Cable network performance: KPI reporting, SLA-violation reporting, customer performance reporting, and service-impact assessments."
+        skills: ["reporting", "data modelling", "etl", "sql", "data visualisation"]
+      - text: "Performed root-cause analysis of network failures and alarms, and a large-scale empirical study of network failures across multiple data centres, identifying false positives and low-level failures."
+        skills: ["problem solving", "data modelling", "reporting"]
+      - text: "Produced performance and utilisation reporting across a 30,500 km, 7-segment submarine and terrestrial network with thousands of multi-vendor elements; contributed to the OSS Phase 4 project automating SCCN performance reporting."
+        skills: ["reporting", "etl", "process improvement"]
+
+  - role: "Immigration Officer — Temporary Entry Visa Team"
+    employer: "Immigration New Zealand, MBIE"
+    location: "Auckland, New Zealand"
+    start: "2013"
+    end: "2017"
+    bullets:
+      - text: "Assessed and decided temporary-entry visa applications using risk-mitigation, verification and profiling tools, documenting findings in the Application Management System (AMS)."
+        skills: ["problem solving", "data modelling"]
+      - text: "Spearheaded a 'Study to Work Visa' project-management initiative involving MBIE and multiple education providers across NZ."
+        skills: ["process improvement", "stakeholder communication"]
+      - text: "Contributed to team timeliness, with at least 92% of applications decided within 25 days."
+        skills: ["reporting", "problem solving"]
+
+  - role: "Client Service Officer / Site Supervisor"
+    employer: "Australian Embassy Manila (DIAC; AusAID)"
+    location: "Manila, Philippines"
+    start: "2005"
+    end: "2007"
+    bullets:
+      - text: "Processed and assessed visa applications (business, visitor, transit) and managed public money as appointed Sub-Collector; supervised 50+ contractors on a blast-resistant building project for AusAID."
+        skills: ["customer support", "process improvement", "stakeholder communication"]
+
+  - role: "Account Specialist — San Miguel Beer Division"
+    employer: "San Miguel Corporation"
+    location: "Manila, Philippines"
+    start: "2001"
+    end: "2004"
+    bullets:
+      - text: "Drove cross-sell optimisation across a sales territory, consistently reaching ~110% of monthly forecast and signing 170 new exclusivity accounts."
+        skills: ["reporting", "process improvement"]
+
+projects:
+  - name: "Electron Launch Operations Data Platform"
+    bullets:
+      - text: "Built an end-to-end data pipeline ingesting launch and weather APIs into a DuckDB medallion warehouse with dbt, served via a FastAPI backend and Streamlit dashboard; tested with pytest and containerised with Docker."
+        skills: ["python", "etl", "dbt", "duckdb", "fastapi", "streamlit", "docker", "git", "sql", "pandas", "data visualisation"]
+  - name: "Aerospace ML projects (Falcon 9 simulation, satellite orbit classification)"
+    bullets:
+      - text: "Developed Python machine-learning and simulation projects in the aerospace domain, including trajectory optimisation and orbital-regime classification."
+        skills: ["python", "machine learning", "pandas"]
+  - name: "RAG / semantic search systems"
+    bullets:
+      - text: "Built retrieval-augmented generation services over document corpora using vector databases and embeddings."
+        skills: ["python", "rag", "llm"]
+
+education:
+  - qualification: "BSc, Commerce"
+    institution: "San Beda University, Manila"
+    year: "[year]"
+  - qualification: "Advanced Engineering Foundation Studies Certificate"
+    institution: "Manukau Institute of Technology"
+    year: "[year]"
+  - qualification: "Mechanical Engineering (2 years, not completed)"
+    institution: "Don Bosco Technical College, Manila"
+    year: ""
+
+certifications:
+  - "DataCamp — Data Engineer (Professional)"
+  - "DataCamp — Data Engineer (Associate)"
+  - "DataCamp — AI Engineer for Developers (Associate)"
+  - "DataCamp — AI Engineer for Data Scientists (Associate)"
+  - "DataCamp — Python Data Associate"
+  - "ITIL Foundation (trained)"
+  - "Lean Six Sigma White Belt (Defence Excellence)"

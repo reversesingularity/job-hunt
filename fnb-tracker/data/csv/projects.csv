@@ -1,0 +1,7 @@
+project_id,short_name,name,description,capital_budget_m,operating_budget_m,spi,cpi,rag_status
+P-01,OTS Narrow Neck,New Officer Training School Facility,New officer training school facility at Narrow Neck supporting RNZN initial officer training throughput.,6.2,0.9,1.02,1.0,On Track
+P-02,SSTS Facility,Replacement Sea Safety Training Squadron Facility,Replacement sea safety training squadron facility including wet training environments and simulation spaces.,4.1,0.7,0.97,1.01,On Track
+P-03,Caisson Gates,Replacement of Dry Dock Caisson Gates,Replacement of the Calliope dry dock caisson gates - specialist marine engineering design with long-lead survey and fabrication inputs.,5.8,1.1,0.82,0.91,Behind
+P-04,Stanley Bay Gate,Redevelopment of Stanley Bay Gate Entrance,"Redevelopment of the Stanley Bay Gate entrance - access control, traffic management and heritage consenting interfaces.",2.9,0.55,0.92,0.96,At Risk
+P-05,Temp Offices,Temporary Multi-Purpose Office Spaces,Temporary multi-purpose office spaces enabling decant of base personnel ahead of Tranche 1b construction.,3.485,1.275,1.0,1.06,On Track
+P-06,Horizontal Infra,Base-Wide Horizontal Infrastructure Network Planning,"Base-wide horizontal infrastructure network planning - power, water, wastewater, comms and wharf services feeding the Tranche 1b DBC.",2.7,0.85,0.95,0.98,On Track

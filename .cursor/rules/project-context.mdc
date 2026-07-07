@@ -1,0 +1,32 @@
+---
+description: Core project context — honest job acquisition, never fabricate CV content
+alwaysApply: true
+---
+
+# JobHunt — Project Context
+
+## Ethics (non-negotiable)
+
+- **Never fabricate** skills, employers, dates, or metrics in CV tailoring or cover letters
+- Tailoring may only **reorder, restructure, and emphasize** verified facts from `data/master_cv.json`
+- Surface skill **gaps honestly**; recommend cover letter / learning / stretch assessment
+- Do not scrape behind login walls or extract PII
+
+## Sourcing priority
+
+1. Public ATS APIs (Greenhouse, Lever, Ashby, Adzuna)
+2. Schema.org JSON-LD `JobPosting` on public career pages
+3. Stealth browser fallback (Camoufox/Nodriver/SeleniumBase) — no authenticated sessions
+
+## Geography & roles
+
+NZ/AU + remote/hybrid **bridge roles**; defence/aerospace/gov domain bonus.
+
+## Key paths
+
+- Fact bank: `data/master_cv.json`
+- Config: `services/config.py`
+- Pipeline CLI: `services/orchestrator/cli.py`
+- MCP: `mcp/server.py`
+- Governance: `GOVERNANCE.md`
+- PMO demos: `fnb-tracker/`, `dei-pmo-dashboard/`

@@ -1,0 +1,31 @@
+project_id,phase,phase_order,start_date,end_date,status,pct_complete
+P-01,Concept Design,1,2025-07-01,2025-11-01,Complete,100.0
+P-01,Preliminary Design,2,2025-11-01,2026-05-01,Complete,100.0
+P-01,Developed Design,3,2026-05-01,2026-12-01,On Track,28.6
+P-01,Detailed Design,4,2026-12-01,2027-08-01,Planned,0.0
+P-01,Enabling Works,5,2027-08-01,2028-06-01,Planned,0.0
+P-02,Concept Design,1,2025-09-01,2026-01-01,Complete,100.0
+P-02,Preliminary Design,2,2026-01-01,2026-07-01,On Track,95.0
+P-02,Developed Design,3,2026-07-01,2027-01-01,Planned,0.0
+P-02,Detailed Design,4,2027-01-01,2027-09-01,Planned,0.0
+P-02,Enabling Works,5,2027-09-01,2028-06-01,Planned,0.0
+P-03,Concept Design,1,2025-08-01,2026-01-01,Complete,100.0
+P-03,Preliminary Design,2,2026-01-01,2026-08-01,Behind,69.6
+P-03,Developed Design,3,2026-08-01,2027-04-01,Planned,0.0
+P-03,Detailed Design,4,2027-04-01,2028-01-01,Planned,0.0
+P-03,Enabling Works,5,2028-01-01,2028-11-01,Planned,0.0
+P-04,Concept Design,1,2025-10-01,2026-01-01,Complete,100.0
+P-04,Preliminary Design,2,2026-01-01,2026-06-01,Complete,100.0
+P-04,Developed Design,3,2026-06-01,2026-12-01,At Risk,14.6
+P-04,Detailed Design,4,2026-12-01,2027-07-01,Planned,0.0
+P-04,Enabling Works,5,2027-07-01,2028-03-01,Planned,0.0
+P-05,Concept Design,1,2025-07-01,2025-09-01,Complete,100.0
+P-05,Preliminary Design,2,2025-09-01,2025-12-01,Complete,100.0
+P-05,Developed Design,3,2025-12-01,2026-04-01,Complete,100.0
+P-05,Detailed Design,4,2026-04-01,2026-09-01,On Track,58.8
+P-05,Enabling Works,5,2026-09-01,2027-09-01,Planned,0.0
+P-06,Network Baseline Survey,1,2025-07-01,2026-01-01,Complete,100.0
+P-06,Options Assessment,2,2026-01-01,2026-09-01,On Track,70.4
+P-06,Utilities Master Plan,3,2026-09-01,2027-06-01,Planned,0.0
+P-06,Integration Design,4,2027-06-01,2028-04-01,Planned,0.0
+P-06,T1b DBC Inputs,5,2028-04-01,2028-09-01,Planned,0.0

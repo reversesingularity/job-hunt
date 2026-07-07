@@ -1,0 +1,6 @@
+{
+  "task.allowAutomaticTasks": "off",
+  "npm.autoDetect": "off",
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["tests"]
+}

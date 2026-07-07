@@ -1,0 +1,21 @@
+project_id,milestone,due_date,milestone_type,status
+P-01,Concept Design Complete,2025-11-01,stage_gate,Complete
+P-01,Developed Design Complete,2026-12-01,stage_gate,On Track
+P-01,Ready for Tender (RFT),2028-06-01,stage_gate,On Track
+P-02,Concept Design Complete,2026-01-01,stage_gate,Complete
+P-02,Developed Design Complete,2027-01-01,stage_gate,On Track
+P-02,Ready for Tender (RFT),2028-06-01,stage_gate,On Track
+P-03,Concept Design Complete,2026-01-01,stage_gate,Complete
+P-03,Developed Design Complete,2027-04-01,stage_gate,Behind
+P-03,Ready for Tender (RFT),2028-11-01,stage_gate,Behind
+P-04,Concept Design Complete,2026-01-01,stage_gate,Complete
+P-04,Developed Design Complete,2026-12-01,stage_gate,At Risk
+P-04,Ready for Tender (RFT),2028-03-01,stage_gate,At Risk
+P-05,Concept Design Complete,2025-09-01,stage_gate,Complete
+P-05,Developed Design Complete,2026-04-01,stage_gate,Complete
+P-05,Ready for Tender (RFT),2027-09-01,stage_gate,On Track
+P-06,Network Baseline Survey Complete,2026-01-01,stage_gate,Complete
+P-06,Utilities Master Plan Complete,2027-06-01,stage_gate,On Track
+P-06,Ready for Tender (RFT),2028-09-01,stage_gate,On Track
+,Tranche 1a Funding Approved (Budget 25),2025-05-22,programme_gate,Complete
+,Tranche 1b Construction DBC — FY28/29,2028-11-30,programme_gate,On Track

@@ -1,0 +1,13 @@
+---
+description: LLM tailoring constraints — never fabricate
+globs: services/tailoring/**
+alwaysApply: false
+---
+
+# Tailoring & LLM Rules
+
+- LLM temperature **≤ 0.1**; output must match strict JSON schema
+- Run `validate_llm_output()` before persisting any LLM result
+- On validation failure, fall back to `deterministic.build_reports()`
+- Forbidden in LLM output: new skills, employers, dates, invented metrics
+- STAR methodology: reorder existing bullets only

@@ -1,0 +1,13 @@
+{
+  "name": "jobhunt-rendering",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ATS-friendly DOCX rendering for jobhunt",
+  "scripts": {
+    "build-docx": "node services/rendering/build_cv.js"
+  },
+  "dependencies": {
+    "docx": "^9.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}

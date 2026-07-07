@@ -1,0 +1,142 @@
+project_id,name,base,domain,priority,budget_m,start_date,end_date,spi,cpi,likelihood,consequence,risk_score,pct_complete,rag_status
+HI-001,Devonport HV Electrical Upgrade,Devonport,Power,Critical,42.0,2026-07-01,2029-09-01,0.842,0.868,4,4,16,0.0,Behind
+HI-002,Waiouru Wastewater Network,Waiouru,Wastewater,Critical,28.5,2025-04-01,2028-07-01,1.117,0.94,4,5,20,42.8,At Risk
+HI-003,Papakura Potable Water Network,Papakura,Water,High,12.8,2027-01-01,2029-01-01,0.966,1.032,2,5,10,0.0,On Track
+HI-004,Whenuapai Stormwater Network,Whenuapai,Stormwater,High,9.6,2025-03-01,2026-08-01,0.982,0.927,2,3,6,92.2,At Risk
+HI-005,Trentham Comms Room Resilience,Trentham,ICT,Medium,5.2,2024-01-01,2025-07-01,0.992,0.87,2,2,4,100.0,Complete
+HI-006,Woodbourne Stormwater Network,Woodbourne,Stormwater,High,3.13,2024-08-01,2025-11-01,0.921,1.037,2,5,10,100.0,Complete
+HI-007,Whenuapai Stormwater Network — Stage 2,Whenuapai,Stormwater,Critical,12.99,2027-06-01,2029-06-01,0.949,0.931,4,4,16,0.0,At Risk
+HI-008,Woodbourne Internal Roading Upgrade,Woodbourne,Roading,High,5.79,2025-06-01,2026-09-01,1.068,0.981,5,3,15,92.1,On Track
+HI-009,Trentham Comms Room Resilience — Stage 2,Trentham,ICT,Medium,3.64,2026-05-01,2027-08-01,1.102,0.967,2,2,4,14.5,On Track
+HI-010,Whenuapai Water Treatment Plant,Whenuapai,Water,Low,2.08,2024-09-01,2025-11-01,1.024,1.074,2,2,4,100.0,Complete
+HI-011,Waiouru Wastewater Network — Stage 2,Waiouru,Wastewater,Medium,7.42,2027-05-01,2028-12-01,1.005,0.945,1,3,3,0.0,At Risk
+HI-012,Devonport Comms Room Resilience,Devonport,ICT,High,4.18,2026-11-01,2028-01-01,0.945,1.008,4,4,16,0.0,At Risk
+HI-013,Trentham Pavement Renewal,Trentham,Roading,Low,2.54,2024-02-01,2025-03-01,1.002,1.061,1,2,2,100.0,Complete
+HI-014,Papakura Potable Water Network — Stage 2,Papakura,Water,Low,5.06,2026-01-01,2027-06-01,0.99,1.023,4,2,8,34.5,On Track
+HI-015,Burnham ICT Duct Network,Burnham,ICT,High,18.79,2026-04-01,2028-05-01,1.04,1.02,4,5,20,12.3,On Track
+HI-016,Woodbourne Pavement Renewal,Woodbourne,Roading,Medium,1.96,2024-03-01,2025-04-01,0.929,0.989,3,2,6,100.0,Complete
+HI-017,Burnham Internal Roading Upgrade,Burnham,Roading,Medium,5.08,2026-10-01,2028-03-01,1.003,0.938,3,3,9,0.0,At Risk
+HI-018,Papakura Substation Replacement,Papakura,Power,Low,3.97,2024-05-01,2025-09-01,1.028,0.931,1,2,2,100.0,Complete
+HI-019,Papakura Internal Roading Upgrade,Papakura,Roading,Medium,3.22,2027-02-01,2028-03-01,1.024,1.112,3,4,12,0.0,On Track
+HI-020,Woodbourne Stormwater Network — Stage 2,Woodbourne,Stormwater,High,3.68,2024-11-01,2026-02-01,1.032,0.985,2,4,8,100.0,Complete
+HI-021,Ohakea ICT Duct Network,Ohakea,ICT,High,2.43,2025-04-01,2026-06-01,0.842,0.795,3,2,6,90.0,Behind
+HI-022,Waiouru Comms Room Resilience,Waiouru,ICT,Low,1.79,2026-01-01,2027-02-01,1.011,0.993,1,1,1,46.0,On Track
+HI-023,Burnham Reservoir & Pump Station,Burnham,Water,Medium,5.58,2027-03-01,2028-07-01,1.036,0.949,1,3,3,0.0,At Risk
+HI-024,Whenuapai Hardstand Reconstruction,Whenuapai,Roading,High,3.94,2025-04-01,2026-06-01,1.082,0.962,4,4,16,100.0,Complete
+HI-025,Waiouru Culvert Renewal,Waiouru,Stormwater,High,7.9,2024-03-01,2025-11-01,0.905,0.974,3,4,12,100.0,Complete
+HI-026,Burnham Internal Roading Upgrade — Stage 2,Burnham,Roading,High,18.93,2024-06-01,2027-03-01,0.953,0.881,5,5,25,72.1,At Risk
+HI-027,Trentham Pavement Renewal — Stage 2,Trentham,Roading,High,8.68,2026-09-01,2028-06-01,0.962,0.978,4,4,16,0.0,On Track
+HI-028,Whenuapai Stormwater Network — Stage 3,Whenuapai,Stormwater,Low,2.18,2025-04-01,2026-05-01,1.112,1.02,2,2,4,100.0,Complete
+HI-029,Devonport Comms Room Resilience — Stage 2,Devonport,ICT,Medium,8.01,2025-05-01,2027-02-01,0.984,0.977,3,5,15,65.2,On Track
+HI-030,Whenuapai Water Treatment Plant — Stage 2,Whenuapai,Water,Critical,21.9,2026-06-01,2029-09-01,1.0,1.081,2,3,6,2.4,On Track
+HI-031,Linton Substation Replacement,Linton,Power,High,8.16,2025-07-01,2026-12-01,1.012,1.111,4,2,8,71.1,On Track
+HI-032,Papakura Stormwater Network,Papakura,Stormwater,Medium,2.49,2024-02-01,2025-04-01,1.09,0.936,1,5,5,100.0,Complete
+HI-033,Papakura Pavement Renewal,Papakura,Roading,High,23.9,2027-03-01,2029-11-01,0.938,0.909,3,2,6,0.0,At Risk
+HI-034,Whenuapai Wastewater Treatment Upgrade,Whenuapai,Wastewater,Medium,3.09,2027-01-01,2028-03-01,1.02,0.978,3,2,6,0.0,On Track
+HI-035,Trentham Substation Replacement,Trentham,Power,Low,3.37,2026-03-01,2027-05-01,1.035,1.102,1,1,1,29.4,On Track
+HI-036,Waiouru Water Treatment Plant,Waiouru,Water,High,2.8,2027-06-01,2028-08-01,1.04,1.032,3,3,9,0.0,On Track
+HI-037,Linton Hardstand Reconstruction,Linton,Roading,Critical,19.11,2024-02-01,2026-09-01,0.975,0.943,3,5,15,91.0,At Risk
+HI-038,Devonport Comms Room Resilience — Stage 3,Devonport,ICT,Medium,5.28,2026-11-01,2028-04-01,1.078,1.054,3,2,6,0.0,On Track
+HI-039,Papakura Wastewater Network,Papakura,Wastewater,High,6.59,2026-08-01,2028-04-01,0.889,0.903,5,3,15,0.0,At Risk
+HI-040,Papakura HV Electrical Upgrade,Papakura,Power,Medium,1.91,2024-04-01,2025-05-01,1.012,1.014,4,3,12,100.0,Complete
+HI-041,Trentham Substation Replacement — Stage 2,Trentham,Power,High,4.89,2027-04-01,2028-08-01,1.012,0.876,2,4,8,0.0,At Risk
+HI-042,Waiouru Wastewater Network — Stage 3,Waiouru,Wastewater,Medium,4.21,2025-12-01,2027-02-01,1.15,0.979,5,3,15,56.8,On Track
+HI-043,Linton Stormwater Network,Linton,Stormwater,Critical,10.91,2026-07-01,2028-07-01,0.872,1.054,4,5,20,0.0,At Risk
+HI-044,Burnham Reservoir & Pump Station — Stage 2,Burnham,Water,Medium,4.82,2025-08-01,2026-12-01,0.942,0.972,2,2,4,64.4,At Risk
+HI-045,Papakura Internal Roading Upgrade — Stage 2,Papakura,Roading,Critical,5.81,2024-09-01,2026-03-01,0.915,0.931,5,4,20,100.0,Complete
+HI-046,Trentham HV Electrical Upgrade,Trentham,Power,Medium,6.13,2026-11-01,2028-05-01,0.947,1.025,2,3,6,0.0,At Risk
+HI-047,Woodbourne Stormwater Detention Basin,Woodbourne,Stormwater,High,7.72,2025-08-01,2027-03-01,1.047,0.936,3,4,12,60.4,At Risk
+HI-048,Devonport Comms Room Resilience — Stage 4,Devonport,ICT,Medium,1.83,2025-07-01,2026-08-01,1.006,1.056,3,3,9,92.5,On Track
+HI-049,Trentham Substation Replacement — Stage 3,Trentham,Power,Critical,16.59,2026-05-01,2028-07-01,0.909,1.025,3,4,12,6.9,At Risk
+HI-050,Burnham Internal Roading Upgrade — Stage 3,Burnham,Roading,Critical,6.91,2025-03-01,2026-08-01,1.09,0.971,5,4,20,100.0,On Track
+HI-051,Waiouru Wastewater Network — Stage 4,Waiouru,Wastewater,High,23.32,2027-02-01,2030-03-01,0.871,0.929,2,3,6,0.0,At Risk
+HI-052,Papakura ICT Duct Network,Papakura,ICT,High,3.8,2026-11-01,2028-03-01,1.077,0.821,3,3,9,0.0,Behind
+HI-053,Linton Wastewater Treatment Upgrade,Linton,Wastewater,Low,2.57,2026-06-01,2027-07-01,0.932,1.073,2,1,2,6.8,At Risk
+HI-054,Whenuapai ICT Duct Network,Whenuapai,ICT,Medium,3.99,2024-11-01,2026-02-01,0.994,0.984,2,3,6,100.0,Complete
+HI-055,Trentham HV Electrical Upgrade — Stage 2,Trentham,Power,Low,8.39,2024-09-01,2026-03-01,0.946,0.986,1,2,2,100.0,Complete
+HI-056,Woodbourne ICT Duct Network,Woodbourne,ICT,Critical,18.79,2026-06-01,2028-07-01,0.978,0.979,3,5,15,3.7,On Track
+HI-057,Papakura LV Reticulation Renewal,Papakura,Power,High,9.29,2026-03-01,2028-01-01,0.885,0.994,3,3,9,16.0,At Risk
+HI-058,Devonport Water Treatment Plant,Devonport,Water,High,8.59,2025-07-01,2026-12-01,0.969,0.965,2,5,10,68.1,On Track
+HI-059,Whenuapai Potable Water Network,Whenuapai,Water,Low,3.16,2024-08-01,2025-10-01,1.016,0.999,1,3,3,100.0,Complete
+HI-060,Linton Wastewater Treatment Upgrade — Stage 2,Linton,Wastewater,Medium,6.38,2026-02-01,2027-07-01,1.02,1.013,4,4,16,29.5,On Track
+HI-061,Burnham Fibre Backbone,Burnham,ICT,Low,3.37,2024-03-01,2025-06-01,1.038,1.06,4,3,12,100.0,Complete
+HI-062,Whenuapai Potable Water Network — Stage 2,Whenuapai,Water,Low,2.77,2025-02-01,2026-05-01,1.026,0.9,2,2,4,100.0,Complete
+HI-063,Trentham ICT Duct Network,Trentham,ICT,High,9.48,2025-12-01,2027-09-01,1.092,0.984,1,4,4,36.0,On Track
+HI-064,Papakura ICT Duct Network — Stage 2,Papakura,ICT,High,10.15,2025-06-01,2027-05-01,1.05,0.944,2,3,6,59.2,At Risk
+HI-065,Papakura Sewer Main Renewal,Papakura,Wastewater,Medium,6.16,2025-07-01,2026-11-01,1.025,0.93,4,3,12,76.5,At Risk
+HI-066,Waiouru Potable Water Network,Waiouru,Water,Critical,5.29,2026-10-01,2028-01-01,0.918,0.938,3,4,12,0.0,At Risk
+HI-067,Ohakea Hardstand Reconstruction,Ohakea,Roading,High,5.87,2024-12-01,2026-04-01,1.033,0.824,3,1,3,100.0,Behind
+HI-068,Burnham HV Electrical Upgrade,Burnham,Power,Critical,25.14,2026-12-01,2029-07-01,0.981,1.037,3,5,15,0.0,On Track
+HI-069,Waiouru Culvert Renewal — Stage 2,Waiouru,Stormwater,Medium,4.54,2027-01-01,2028-06-01,1.014,1.071,2,3,6,0.0,On Track
+HI-070,Whenuapai Fibre Backbone,Whenuapai,ICT,High,7.32,2025-05-01,2027-02-01,1.053,0.899,4,3,12,69.8,At Risk
+HI-071,Trentham Stormwater Network,Trentham,Stormwater,High,14.46,2027-01-01,2028-12-01,1.015,0.961,2,3,6,0.0,On Track
+HI-072,Whenuapai Sewer Main Renewal,Whenuapai,Wastewater,High,5.11,2024-03-01,2025-06-01,0.931,1.031,2,4,8,100.0,Complete
+HI-073,Linton LV Reticulation Renewal,Linton,Power,Low,4.97,2024-04-01,2025-09-01,0.969,1.063,3,3,9,100.0,Complete
+HI-074,Devonport Water Treatment Plant — Stage 2,Devonport,Water,Low,6.98,2025-10-01,2027-05-01,0.932,0.997,3,2,6,43.9,At Risk
+HI-075,Woodbourne Culvert Renewal,Woodbourne,Stormwater,Medium,7.14,2027-05-01,2028-09-01,0.99,1.003,1,3,3,0.0,On Track
+HI-076,Papakura Internal Roading Upgrade — Stage 3,Papakura,Roading,Critical,11.03,2026-01-01,2027-10-01,1.039,0.988,4,5,20,29.3,On Track
+HI-077,Woodbourne LV Reticulation Renewal,Woodbourne,Power,High,3.4,2024-09-01,2025-12-01,0.954,1.142,4,2,8,100.0,Complete
+HI-078,Trentham Substation Replacement — Stage 4,Trentham,Power,Critical,11.84,2026-07-01,2028-04-01,1.045,1.02,4,4,16,0.0,On Track
+HI-079,Whenuapai Reservoir & Pump Station,Whenuapai,Water,High,11.15,2026-11-01,2028-06-01,0.838,1.028,5,1,5,0.0,Behind
+HI-080,Linton Sewer Main Renewal,Linton,Wastewater,Critical,5.31,2024-09-01,2026-03-01,0.908,0.97,3,4,12,100.0,Complete
+HI-081,Burnham ICT Duct Network — Stage 2,Burnham,ICT,Medium,5.69,2025-07-01,2026-11-01,1.139,0.991,1,4,4,84.9,On Track
+HI-082,Papakura Sewer Main Renewal — Stage 2,Papakura,Wastewater,Medium,5.17,2026-09-01,2028-03-01,1.024,0.899,3,3,9,0.0,At Risk
+HI-083,Linton Water Treatment Plant,Linton,Water,High,6.07,2024-06-01,2025-09-01,0.862,0.988,3,3,9,100.0,Complete
+HI-084,Waiouru Substation Replacement,Waiouru,Power,High,5.63,2024-12-01,2026-04-01,0.976,0.986,3,4,12,100.0,Complete
+HI-085,Trentham Stormwater Network — Stage 2,Trentham,Stormwater,Low,1.65,2027-02-01,2028-03-01,1.15,0.986,1,2,2,0.0,On Track
+HI-086,Papakura Substation Replacement — Stage 2,Papakura,Power,Medium,4.42,2027-04-01,2028-08-01,1.019,0.997,5,3,15,0.0,On Track
+HI-087,Whenuapai Potable Water Network — Stage 3,Whenuapai,Water,Medium,11.24,2027-03-01,2028-10-01,0.953,0.958,1,4,4,0.0,On Track
+HI-088,Waiouru Substation Replacement — Stage 2,Waiouru,Power,Critical,20.34,2024-03-01,2026-09-01,0.913,1.022,4,5,20,85.0,At Risk
+HI-089,Burnham Reservoir & Pump Station — Stage 3,Burnham,Water,Low,2.1,2026-11-01,2028-01-01,1.022,1.085,1,2,2,0.0,On Track
+HI-090,Papakura Internal Roading Upgrade — Stage 4,Papakura,Roading,Low,1.54,2027-04-01,2028-05-01,0.955,0.871,2,2,4,0.0,At Risk
+HI-091,Whenuapai Culvert Renewal,Whenuapai,Stormwater,Medium,7.01,2024-06-01,2026-01-01,1.087,1.015,4,2,8,100.0,Complete
+HI-092,Linton Wastewater Treatment Upgrade — Stage 3,Linton,Wastewater,High,7.08,2024-12-01,2026-08-01,0.885,1.088,3,3,9,83.8,At Risk
+HI-093,Papakura Reservoir & Pump Station,Papakura,Water,Medium,4.71,2026-06-01,2027-09-01,1.006,0.952,2,3,6,6.4,On Track
+HI-094,Woodbourne Wastewater Treatment Upgrade,Woodbourne,Wastewater,Medium,20.38,2025-03-01,2027-11-01,0.967,0.94,1,5,5,48.2,At Risk
+HI-095,Papakura Sewer Main Renewal — Stage 3,Papakura,Wastewater,Critical,7.86,2024-11-01,2026-09-01,0.927,0.864,5,5,25,83.9,At Risk
+HI-096,Trentham Reservoir & Pump Station,Trentham,Water,Low,1.13,2025-10-01,2026-11-01,1.056,1.023,1,1,1,72.5,On Track
+HI-097,Ohakea HV Electrical Upgrade,Ohakea,Power,Medium,2.6,2024-04-01,2025-06-01,1.101,1.003,4,3,12,100.0,Complete
+HI-098,Woodbourne Wastewater Treatment Upgrade — Stage 2,Woodbourne,Wastewater,Low,2.75,2026-06-01,2027-08-01,1.054,0.96,2,1,2,7.2,On Track
+HI-099,Trentham Wastewater Treatment Upgrade,Trentham,Wastewater,Low,1.15,2024-02-01,2025-02-01,1.001,0.997,1,1,1,100.0,Complete
+HI-100,Ohakea Internal Roading Upgrade,Ohakea,Roading,Medium,7.98,2025-03-01,2026-08-01,1.054,1.005,3,3,9,98.9,On Track
+HI-101,Devonport Reservoir & Pump Station,Devonport,Water,Medium,6.38,2024-11-01,2026-07-01,0.969,1.008,3,1,3,96.8,On Track
+HI-102,Whenuapai Pavement Renewal,Whenuapai,Roading,High,8.07,2024-03-01,2025-11-01,0.912,0.976,3,3,9,100.0,Complete
+HI-103,Ohakea Potable Water Network,Ohakea,Water,Low,5.61,2026-12-01,2028-04-01,1.142,0.977,1,2,2,0.0,On Track
+HI-104,Waiouru Reservoir & Pump Station,Waiouru,Water,High,3.95,2025-07-01,2026-11-01,0.977,1.075,4,3,12,72.8,On Track
+HI-105,Trentham Sewer Main Renewal,Trentham,Wastewater,Critical,13.73,2027-04-01,2029-01-01,0.923,0.862,4,3,12,0.0,At Risk
+HI-106,Burnham HV Electrical Upgrade — Stage 2,Burnham,Power,Critical,23.81,2025-10-01,2029-04-01,0.911,0.979,5,5,25,19.4,At Risk
+HI-107,Woodbourne Comms Room Resilience,Woodbourne,ICT,High,4.46,2026-01-01,2027-06-01,0.973,0.912,2,3,6,33.9,At Risk
+HI-108,Linton Internal Roading Upgrade,Linton,Roading,High,10.21,2025-11-01,2027-08-01,0.935,1.011,2,1,2,35.3,At Risk
+HI-109,Ohakea Substation Replacement,Ohakea,Power,Medium,5.04,2025-05-01,2026-09-01,0.97,1.057,4,5,20,84.5,On Track
+HI-110,Woodbourne Culvert Renewal — Stage 2,Woodbourne,Stormwater,Low,10.47,2025-08-01,2027-04-01,1.057,0.971,3,1,3,57.9,On Track
+HI-111,Burnham HV Electrical Upgrade — Stage 3,Burnham,Power,Critical,19.4,2027-03-01,2030-01-01,1.012,0.986,3,3,9,0.0,On Track
+HI-112,Linton Wastewater Treatment Upgrade — Stage 4,Linton,Wastewater,Medium,1.43,2026-03-01,2027-04-01,0.928,1.048,4,4,16,28.3,At Risk
+HI-113,Trentham Wastewater Network,Trentham,Wastewater,Critical,8.15,2027-05-01,2029-02-01,0.958,1.02,3,4,12,0.0,On Track
+HI-114,Woodbourne Wastewater Treatment Upgrade — Stage 3,Woodbourne,Wastewater,Medium,4.71,2024-06-01,2025-11-01,1.074,0.97,1,2,2,100.0,Complete
+HI-115,Ohakea Reservoir & Pump Station,Ohakea,Water,High,14.37,2024-08-01,2026-08-01,1.012,0.94,3,3,9,96.8,At Risk
+HI-116,Ohakea Culvert Renewal,Ohakea,Stormwater,High,10.01,2025-08-01,2027-03-01,1.047,0.95,4,3,12,60.4,On Track
+HI-117,Ohakea HV Electrical Upgrade — Stage 2,Ohakea,Power,Medium,4.23,2027-01-01,2028-03-01,0.984,0.857,1,2,2,0.0,At Risk
+HI-118,Waiouru Internal Roading Upgrade,Waiouru,Roading,Low,3.49,2024-01-01,2025-03-01,0.878,0.926,2,1,2,100.0,Complete
+HI-119,Burnham Reservoir & Pump Station — Stage 4,Burnham,Water,Medium,7.09,2026-11-01,2028-06-01,1.021,0.971,3,3,9,0.0,On Track
+HI-120,Woodbourne Internal Roading Upgrade — Stage 2,Woodbourne,Roading,Low,3.22,2025-05-01,2026-07-01,1.041,0.975,3,1,3,100.0,On Track
+HI-121,Trentham Internal Roading Upgrade,Trentham,Roading,Critical,11.44,2026-07-01,2028-05-01,0.935,0.942,4,5,20,0.0,At Risk
+HI-122,Woodbourne LV Reticulation Renewal — Stage 2,Woodbourne,Power,Low,5.64,2027-01-01,2028-06-01,0.939,0.966,1,2,2,0.0,At Risk
+HI-123,Woodbourne Stormwater Detention Basin — Stage 2,Woodbourne,Stormwater,High,13.14,2027-04-01,2028-12-01,0.902,0.897,1,3,3,0.0,At Risk
+HI-124,Papakura Potable Water Network — Stage 3,Papakura,Water,Medium,6.45,2025-12-01,2027-05-01,1.082,0.921,4,4,16,44.2,At Risk
+HI-125,Woodbourne Sewer Main Renewal,Woodbourne,Wastewater,Critical,12.68,2025-12-01,2027-10-01,1.063,0.846,5,5,25,33.5,Behind
+HI-126,Papakura Wastewater Network — Stage 2,Papakura,Wastewater,High,9.48,2026-09-01,2028-08-01,1.06,0.862,4,3,12,0.0,At Risk
+HI-127,Whenuapai Reservoir & Pump Station — Stage 2,Whenuapai,Water,Low,1.82,2025-10-01,2026-11-01,1.055,1.011,1,2,2,72.5,On Track
+HI-128,Papakura Pavement Renewal — Stage 2,Papakura,Roading,High,9.64,2025-08-01,2027-02-01,1.035,1.003,4,5,20,62.8,On Track
+HI-129,Linton Potable Water Network,Linton,Water,Critical,20.28,2026-07-01,2028-10-01,0.929,0.918,4,5,20,0.0,At Risk
+HI-130,Woodbourne Water Treatment Plant,Woodbourne,Water,Low,3.67,2024-09-01,2026-01-01,1.025,0.994,3,2,6,100.0,Complete
+HI-131,Ohakea Sewer Main Renewal,Ohakea,Wastewater,Medium,10.35,2024-04-01,2026-04-01,0.948,0.961,2,2,4,100.0,Complete
+HI-132,Linton LV Reticulation Renewal — Stage 2,Linton,Power,Medium,3.22,2026-01-01,2027-03-01,0.949,0.869,4,3,12,40.3,At Risk
+HI-133,Ohakea Culvert Renewal — Stage 2,Ohakea,Stormwater,High,5.37,2026-11-01,2028-05-01,1.002,0.99,2,4,8,0.0,On Track
+HI-134,Devonport LV Reticulation Renewal,Devonport,Power,Medium,6.02,2025-10-01,2027-04-01,0.957,0.926,4,2,8,47.6,At Risk
+HI-135,Whenuapai Potable Water Network — Stage 4,Whenuapai,Water,High,29.59,2027-02-01,2029-10-01,0.877,0.939,3,4,12,0.0,At Risk
+HI-136,Burnham Internal Roading Upgrade — Stage 4,Burnham,Roading,Low,2.29,2026-10-01,2027-12-01,0.885,0.934,1,2,2,0.0,At Risk
+HI-137,Waiouru Pavement Renewal,Waiouru,Roading,High,8.31,2025-05-01,2027-01-01,0.938,0.975,1,3,3,65.4,At Risk
+HI-138,Ohakea Potable Water Network — Stage 2,Ohakea,Water,Medium,4.11,2026-06-01,2027-11-01,0.974,0.942,2,1,2,5.5,At Risk
+HI-139,Papakura Culvert Renewal,Papakura,Stormwater,Medium,4.57,2027-05-01,2028-07-01,0.962,1.004,5,3,15,0.0,On Track
+HI-140,Burnham Hardstand Reconstruction,Burnham,Roading,Medium,9.45,2026-12-01,2028-06-01,1.097,0.981,2,5,10,0.0,On Track
+HI-141,Whenuapai HV Electrical Upgrade,Whenuapai,Power,Medium,3.7,2025-10-01,2026-12-01,0.878,0.937,1,4,4,56.1,At Risk

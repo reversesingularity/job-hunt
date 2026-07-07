@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "python .cursor/hooks/lint_and_test.py",
+        "matcher": "\\.py$"
+      }
+    ],
+    "stop": [
+      {
+        "command": "python .cursor/hooks/run_smoke.py",
+        "timeout": 120
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+---
+description: Stealth scraper legal and operational guardrails
+globs: services/sourcing/stealth/**
+alwaysApply: false
+---
+
+# Stealth Scraping Rules
+
+- **Never** scrape content behind login walls or paywalls
+- **Never** extract or store PII beyond public job posting data
+- Require `PROXY_URL` for production stealth runs; rotate when `PROXY_ROTATION=true`
+- Respect rate limits; prefer API and JSON-LD before browser automation
+- Log source URL and fetcher used to `audit_log`

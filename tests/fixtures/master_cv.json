@@ -1,0 +1,61 @@
+{
+  "basics": {
+    "name": "Test Candidate",
+    "label": "Data Analyst",
+    "email": "test@example.com",
+    "phone": "021 000 0000",
+    "summary": "Analytics professional with reporting and SQL experience in defence sector.",
+    "location": { "city": "Auckland", "countryCode": "NZ" },
+    "profiles": [
+      { "network": "GitHub", "url": "https://github.com/test" }
+    ]
+  },
+  "skills": [
+    { "name": "reporting", "level": "core" },
+    { "name": "sql", "level": "working" },
+    { "name": "python", "level": "working" },
+    { "name": "stakeholder communication", "level": "core" },
+    { "name": "power bi", "level": "working" }
+  ],
+  "work": [
+    {
+      "id": "work_0",
+      "name": "Test Employer",
+      "position": "Data Analyst",
+      "startDate": "2017-02",
+      "endDate": "",
+      "location": "Auckland, NZ",
+      "highlights": [
+        "Produced monthly reporting for internal stakeholders using SQL and Excel.",
+        "Participated in process-improvement working groups."
+      ],
+      "meta": {
+        "bullet_skills": {
+          "0": ["reporting", "sql"],
+          "1": ["process improvement", "stakeholder communication"]
+        }
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "project_0",
+      "name": "Data Pipeline Demo",
+      "highlights": [
+        "Built ETL pipeline with Python and DuckDB for portfolio demonstration."
+      ],
+      "meta": {
+        "bullet_skills": { "0": ["python", "etl"] }
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Test University",
+      "area": "Commerce",
+      "studyType": "BSc",
+      "endDate": "2004"
+    }
+  ],
+  "certificates": [{ "name": "DataCamp — Data Engineer (Associate)" }]
+}

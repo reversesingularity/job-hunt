@@ -1,0 +1,12 @@
+---
+description: Python service conventions
+globs: services/**/*.py
+alwaysApply: false
+---
+
+# Python Services
+
+- Use typed function signatures and repository pattern for SQLite (`services/db/`)
+- Keep scoring explainable — every point maps to a `reasons[]` string
+- Load env via `python-dotenv` in CLI entry points
+- Run `ruff check services tests` after edits

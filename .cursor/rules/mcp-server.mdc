@@ -1,0 +1,12 @@
+---
+description: MCP server tool contracts
+globs: mcp/**
+alwaysApply: false
+---
+
+# MCP Server
+
+- Tool names: `get_applicant_context`, `list_shortlist`, `tailor_for_job`, `draft_cover_letter`
+- Phase 2: `approve_application`, `submit_application`, `record_application_result`
+- Return JSON text content; never expose raw API keys
+- Initialize DB via `init_db()` on tool calls

@@ -1,0 +1,101 @@
+# =============================================================================
+# MASTER CV  —  your single source of truth
+# =============================================================================
+# The tailoring tool ONLY ever uses content from this file. It selects,
+# reorders, and rephrases what is here to match a job description. It never
+# invents anything. That is the whole point: tailoring without deception.
+#
+# RULES:
+#  - Every line in here must be TRUE. If it isn't true, delete it.
+#  - Fill in the [BRACKETED] placeholders with your real details.
+#  - Set skill "level" honestly. It drives whether a match is reported as a
+#    STRONG match or only a PARTIAL one:
+#       core    = you can do this unsupervised, on the job, today
+#       working = you've used it in real projects but not professionally
+#       familiar= you've learned it but have limited hands-on depth
+#  - Tag each bullet/project with the skills it genuinely demonstrates.
+# =============================================================================
+
+name: "Christopher Modina"
+location: "Auckland, New Zealand"
+contact:
+  email: "[your email]"
+  phone: "[your phone]"
+  github: "github.com/reversesingularity"
+  linkedin: "linkedin.com/in/christopher-modina-78097622"
+
+# One honest sentence about who you are. The tool will append JD-relevant
+# skills you actually have; keep this part true and general.
+headline: >
+  Customer-focused NZDF professional with a decade of front-line support
+  experience, a BSc in Management, and data & AI engineering certifications,
+  moving into data and analytics roles.
+
+skills:
+  # ---- things 10 years of support genuinely gave you (set honestly) ----
+  - {name: "stakeholder communication", level: core}
+  - {name: "customer support", level: core}
+  - {name: "problem solving", level: core}
+  - {name: "process improvement", level: working}
+  # ---- technical (set levels honestly — be conservative) ----
+  - {name: "python", level: working}
+  - {name: "sql", level: working}
+  - {name: "etl", level: working}
+  - {name: "dbt", level: working}
+  - {name: "duckdb", level: working}
+  - {name: "postgresql", level: working}
+  - {name: "pandas", level: working}
+  - {name: "fastapi", level: working}
+  - {name: "streamlit", level: working}
+  - {name: "docker", level: working}
+  - {name: "git", level: working}
+  - {name: "rag", level: working}
+  - {name: "llm", level: working}
+  - {name: "power bi", level: familiar}
+  - {name: "tableau", level: familiar}
+
+# Your ACTUAL employment. Projects do NOT go here — they go under `projects`.
+# This separation is deliberate: it stops personal projects masquerading as
+# paid experience, which is the most common CV credibility failure.
+experience:
+  - role: "Customer Support Representative"
+    employer: "New Zealand Defence Force"
+    location: "Auckland, New Zealand"
+    start: "[YYYY]"
+    end: "Present"
+    bullets:
+      - text: "[Resolved customer/end-user queries across X channels, maintaining a [metric] satisfaction/resolution rate.]"
+        skills: ["customer support", "stakeholder communication", "problem solving"]
+      - text: "[Identified a recurring issue and proposed a process change that reduced [what] by [metric].]"
+        skills: ["process improvement", "problem solving"]
+      - text: "[Produced regular reports / tracked support data in [tool] for [audience].]"
+        skills: ["sql", "power bi", "stakeholder communication"]
+      - text: "[Add any data, reporting, spreadsheet, or systems work you genuinely did — this is your bridge evidence.]"
+        skills: ["sql", "etl"]
+
+# Self-initiated technical work. Real, but labelled as projects, not jobs.
+projects:
+  - name: "Electron Launch Operations Data Platform"
+    bullets:
+      - text: "Built an end-to-end data pipeline ingesting launch and weather APIs into a DuckDB medallion warehouse with dbt, served via FastAPI and a Streamlit dashboard; tested with pytest and containerised with Docker."
+        skills: ["python", "etl", "dbt", "duckdb", "fastapi", "streamlit", "docker", "git", "sql", "pandas"]
+  - name: "Aerospace ML projects (Falcon 9 sim, satellite orbit classification)"
+    bullets:
+      - text: "Developed Python machine-learning and simulation projects in the aerospace domain, including trajectory optimisation and orbital-regime classification."
+        skills: ["python", "machine learning", "pandas"]
+  - name: "RAG / semantic search systems"
+    bullets:
+      - text: "Built retrieval-augmented generation services over document corpora using vector databases and embeddings."
+        skills: ["python", "rag", "llm"]
+
+education:
+  - qualification: "BSc, Management"
+    institution: "[Institution]"
+    year: "[YYYY]"
+
+certifications:
+  - "DataCamp — Data Engineer (Professional)"
+  - "DataCamp — Data Engineer (Associate)"
+  - "DataCamp — AI Engineer for Developers (Associate)"
+  - "DataCamp — AI Engineer for Data Scientists (Associate)"
+  - "DataCamp — Python Data Associate"
