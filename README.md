@@ -69,7 +69,7 @@ Standalone Streamlit apps using DuckDB + Plotly on a validated dark-navy palette
 | App | Path | Description |
 |-----|------|-------------|
 | **FNB Tranche 1 Tracker** | [`fnb-tracker/`](fnb-tracker/) | Six Tranche 1a Devonport projects; capital/operating envelopes; stage gates |
-| **DE&I Horizontal PMO** | [`dei-pmo-dashboard/`](dei-pmo-dashboard/) · [standalone GitHub](https://github.com/reversesingularity/dei-pmo-dashboard) | 141-project portfolio; 24/45/72 priority split; 5×5 risk matrix; OIA-2025-5483 reference PDFs with Crown Copyright attribution |
+| **DE&I Horizontal PMO** | [`dei-pmo-dashboard/`](dei-pmo-dashboard/) · [standalone GitHub](https://github.com/reversesingularity/dei-pmo-dashboard) · [live](https://dei-pmo.reversesingularity.com) | 141-project portfolio; 24/45/72 priority split; 5×5 risk matrix; OIA-2025-5483 reference PDFs with Crown Copyright attribution |
 
 ```powershell
 cd fnb-tracker

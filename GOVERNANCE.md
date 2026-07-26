@@ -8,7 +8,7 @@ This document defines how JobHunt and its portfolio subprojects are operated, wh
 |-----------|---------|------------------|
 | **JobHunt core** (`services/`, `mcp/`) | Discover, score, tailor, render job applications | User fact bank, API keys, application state |
 | **FNB tracker** (`fnb-tracker/`) | PMO demo — Future Naval Base Tranche 1a | None (synthetic) |
-| **DE&I PMO** (`dei-pmo-dashboard/`) | PMO demo — horizontal infrastructure portfolio; also published as standalone repo [reversesingularity/dei-pmo-dashboard](https://github.com/reversesingularity/dei-pmo-dashboard) | Synthetic delivery figures; OIA reference PDFs are © Crown Copyright (public release) |
+| **DE&I PMO** (`dei-pmo-dashboard/`) | PMO demo — horizontal infrastructure portfolio; standalone repo [reversesingularity/dei-pmo-dashboard](https://github.com/reversesingularity/dei-pmo-dashboard); **live** at [dei-pmo.reversesingularity.com](https://dei-pmo.reversesingularity.com) | Synthetic delivery figures; OIA reference PDFs are © Crown Copyright (public release) |
 | **Interview Buddy** (`packages/interview-buddy/`) | Phase 3 scaffold | TBD |
 
 ## Ethics (non-negotiable)
@@ -82,6 +82,7 @@ The live DE&I Streamlit app must keep the OIA caption visible in the **main head
 | 2026-07-26 | Fact banks (`data/master_cv.json` canonical + `cv-files/master_cv.yml`) refreshed with verified facts for the NZDF-2607025 application: SAP HR+SRM end-user, DSSG base-access/ID-card duty, early roles (Bank of America, PLDT), Spark vendor names, CONFIDENTIAL clearance, education years, driver's licence. Sources: prior CVs, GitHub README, and candidate confirmation — consistent with the Ethics "never fabricate / verified facts only" rule. |
 | 2026-07-26 | Published standalone public repo [reversesingularity/dei-pmo-dashboard](https://github.com/reversesingularity/dei-pmo-dashboard) with comprehensive README (charts, architecture diagrams, OIA/Crown Copyright section), MIT for code, Crown notice for OIA PDFs. |
 | 2026-07-26 | Confirmed portfolio hosting of OIA-2025-5483 materials is clear from NZSIS/security standpoint; mandatory OIA caption + no NZDF emblems as endorsement. Caption added to live DE&I Streamlit UI (header + sidebar). |
+| 2026-07-26 | Deployed DE&I Streamlit app to Railway; custom domain `dei-pmo.reversesingularity.com` (Vercel DNS CNAME + Railway verify TXT). Registered landing card `dei-pmo` on reversesingularity.com and set GitHub homepage. |
 
 ## Changes to this document
 

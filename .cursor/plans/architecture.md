@@ -48,7 +48,8 @@ Regenerate with `generate_fnb_data.py` / `generate_mock_data.py`. All figures sy
 
 
 
-**DE&I standalone publish:** https://github.com/reversesingularity/dei-pmo-dashboard
+**DE&I standalone publish:** https://github.com/reversesingularity/dei-pmo-dashboard  
+**Live:** https://dei-pmo.reversesingularity.com (Railway Streamlit; landing card `dei-pmo`)
 
 
 

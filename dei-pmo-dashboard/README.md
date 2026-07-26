@@ -9,6 +9,9 @@ Built as a public demonstration of large-scale government infrastructure control
 **on time, on budget, and in full** — using Earned Value Management (EVM), a
 5×5 risk matrix, and executive RAG reporting.
 
+**Live demo:** [dei-pmo.reversesingularity.com](https://dei-pmo.reversesingularity.com)  
+**Landing card:** [reversesingularity.com](https://reversesingularity.com) (`dei-pmo`)
+
 > **Security & copyright (read first):** Publishing this demo — and referencing
 > the publicly released DE&I tactical dashboard reports — does **not** violate
 > NZSIS protective security rules. You **must** still respect **Crown Copyright**
@@ -296,6 +299,8 @@ streamlit run app.py
 
 Then open the local URL Streamlit prints (typically `http://localhost:8501`).
 
+Production (Railway): [https://dei-pmo.reversesingularity.com](https://dei-pmo.reversesingularity.com) — see `Dockerfile` / `railway.toml`.
+
 ### Optional — regenerate README chart PNGs
 
 ```powershell
@@ -314,7 +319,11 @@ dei-pmo-dashboard/
 ├── data_access.py              # DuckDB queries + EVM helpers
 ├── generate_mock_data.py       # Seeded mock generator
 ├── requirements.txt
+├── Dockerfile                  # Railway Streamlit image (regen DuckDB at build)
+├── railway.toml
+├── .dockerignore
 ├── LICENSE                     # MIT for code; Crown notice for OIA PDFs
+├── HANDOFF.md                  # Session handoff for agents
 ├── README.md
 ├── .streamlit/config.toml      # Dark theme
 ├── data/
@@ -387,6 +396,9 @@ a free licence to reuse Crown works without rules.
    use cases) — **not** as an official NZDF product.
 4. Keep this repo’s **synthetic** schedule, cost, and risk figures clearly
    labelled as mock data.
+5. Live hosting: Railway Streamlit at
+   [dei-pmo.reversesingularity.com](https://dei-pmo.reversesingularity.com);
+   landing registry in `reversesingularity_landing` (`id: dei-pmo`).
 
 Copies of the three public release PDFs live in
 [`docs/oia-reference/`](docs/oia-reference/) for reference only.

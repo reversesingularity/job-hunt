@@ -35,6 +35,8 @@ OIA-2025-5483 reference PDFs under `dei-pmo-dashboard/docs/oia-reference/` are p
 
 See [GOVERNANCE.md](GOVERNANCE.md) for the full security-vs-copyright policy.
 
+Live demo: https://dei-pmo.reversesingularity.com
+
 ## Scraping and automation
 
 Phase 2 stealth/apply features must not:

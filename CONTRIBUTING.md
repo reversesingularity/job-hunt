@@ -57,6 +57,7 @@ Use clear, imperative subjects focused on **why**:
 - [ ] Synthetic-data disclaimers preserved for PMO dashboards
 - [ ] DE&I changes keep OIA-2025-5483 Crown Copyright caption (UI + docs) and do not add NZDF/government emblems as endorsement
 - [ ] If publishing the standalone DE&I app, sync https://github.com/reversesingularity/dei-pmo-dashboard as well as this monorepo path
+- [ ] If changing the live URL or card metadata, update reversesingularity_landing (`projects.ts` + sync) and redeploy Railway as needed
 
 ## Code conventions
 
