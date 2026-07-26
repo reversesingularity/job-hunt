@@ -56,6 +56,10 @@ Optional README chart regen: `pip install kaleido` then `python scripts/export_r
 - DE&I demo is a **portfolio / interview** artefact (DE&I Projects Officer / MacGyver Protocol / zero onboarding lag), not an official NZDF product.
 - Parent decision log and data-classification table now include Crown Copyright / OIA class and standalone repo URL.
 
+## Incident note (2026-07-26)
+
+While adding the OIA PDF gitignore exception to the parent `job-hunt` repo, a bad `git add` pathspec briefly committed personal CV PDFs and `output/` tailored CVs to `reversesingularity/job-hunt`. They were **removed in a follow-up commit** (`d26bcb7`). They may still exist in git history of that commit range until history is purged if desired.
+
 ## Suggested next-session work
 
 - [ ] Confirm Streamlit still shows OIA caption after any UI polish
@@ -64,6 +68,7 @@ Optional README chart regen: `pip install kaleido` then `python scripts/export_r
 - [ ] Remove leftover root `dashboard2.pdf` / `dashboard3.pdf` locks if still present (canonical copies are in `docs/oia-reference/`)
 - [ ] Optional: deploy Streamlit Community Cloud from the standalone repo
 - [ ] Optional: add FNB tracker twin publish if desired for consistency
+- [ ] Optional: purge `job-hunt` git history for commit `247c696` personal/output PDFs if they must leave GitHub entirely
 
 ## Do not
 
