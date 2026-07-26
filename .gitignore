@@ -32,6 +32,8 @@ Thumbs.db
 # PDF/DOCX outputs
 *.pdf
 *.docx
+# Exception: public OIA Crown Copyright reference pack for DE&I PMO
+!dei-pmo-dashboard/docs/oia-reference/*.pdf
 
 # Camoufox browser cache
 .camoufox/
