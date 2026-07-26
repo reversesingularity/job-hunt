@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Tooling / IDE
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local regenerable binaries (CSV exports remain committed for transparency)
+# Keep dei.duckdb out of git — regenerate with: python generate_mock_data.py
+data/dei.duckdb
+data/*.duckdb.wal
+
+# Duplicate OIA PDFs at repo root (canonical copies live in docs/oia-reference/)
+/dashboard*.pdf

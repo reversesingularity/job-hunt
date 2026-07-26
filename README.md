@@ -69,7 +69,7 @@ Standalone Streamlit apps using DuckDB + Plotly on a validated dark-navy palette
 | App | Path | Description |
 |-----|------|-------------|
 | **FNB Tranche 1 Tracker** | [`fnb-tracker/`](fnb-tracker/) | Six Tranche 1a Devonport projects; capital/operating envelopes; stage gates |
-| **DE&I Horizontal PMO** | [`dei-pmo-dashboard/`](dei-pmo-dashboard/) | 141-project portfolio; 24/45/72 priority split; 5×5 risk matrix |
+| **DE&I Horizontal PMO** | [`dei-pmo-dashboard/`](dei-pmo-dashboard/) · [standalone GitHub](https://github.com/reversesingularity/dei-pmo-dashboard) | 141-project portfolio; 24/45/72 priority split; 5×5 risk matrix; OIA-2025-5483 reference PDFs with Crown Copyright attribution |
 
 ```powershell
 cd fnb-tracker
@@ -83,6 +83,11 @@ python generate_mock_data.py
 streamlit run app.py
 ```
 
+**DE&I attribution (required wherever OIA materials or the demo framing appear):**
+
+> *Sourced from publicly available Official Information Act (OIA) release OIA-2025-5483. © Crown Copyright.*
+
+Security vs copyright detail: [GOVERNANCE.md — PMO dashboard disclaimers](GOVERNANCE.md#pmo-dashboard-disclaimers). Do not use NZDF logos or government emblems as endorsement.
 ## Project layout
 
 ```
@@ -118,4 +123,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for workflow and [`.cursor/plans/architec
 
 ## Disclaimer
 
-JobHunt is a personal job-acquisition tool. PMO dashboards use synthetic data and are not affiliated with or endorsed by NZDF. Do not commit secrets, API keys, or your canonical `master_cv.json`.
+JobHunt is a personal job-acquisition tool. PMO dashboards use synthetic data and are not affiliated with or endorsed by NZDF. DE&I OIA reference materials remain © Crown Copyright (OIA-2025-5483). Do not commit secrets, API keys, or your canonical `master_cv.json`.

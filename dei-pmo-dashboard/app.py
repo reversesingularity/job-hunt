@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from datetime import date
 
+import pandas as pd
 import streamlit as st
 
 from config import (
@@ -70,6 +71,10 @@ def _sidebar(projects: pd.DataFrame, financials: pd.DataFrame) -> tuple[list[str
 
     st.sidebar.divider()
     st.sidebar.caption(
+        "Sourced from publicly available Official Information Act (OIA) "
+        "release OIA-2025-5483. © Crown Copyright."
+    )
+    st.sidebar.caption(
         "Portfolio demonstration piece. Project counts and priority split "
         "reflect the 2025 Defence Estate Portfolio Plan; all schedule, cost, "
         "and risk figures are synthetic."
@@ -104,6 +109,10 @@ def main() -> None:
     st.caption(
         f"141-project portfolio · reporting as at {as_at:%d %B %Y} · "
         f"{len(selected)} of {TOTAL_PROJECTS} projects selected"
+    )
+    st.caption(
+        "*Sourced from publicly available Official Information Act (OIA) "
+        "release OIA-2025-5483. © Crown Copyright.*"
     )
 
     tab_overview, tab_risk, tab_financial = st.tabs(

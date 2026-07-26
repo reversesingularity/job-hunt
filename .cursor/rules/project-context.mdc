@@ -30,3 +30,12 @@ NZ/AU + remote/hybrid **bridge roles**; defence/aerospace/gov domain bonus.
 - MCP: `mcp/server.py`
 - Governance: `GOVERNANCE.md`
 - PMO demos: `fnb-tracker/`, `dei-pmo-dashboard/`
+- Standalone DE&I repo: https://github.com/reversesingularity/dei-pmo-dashboard
+
+## PMO / Crown Copyright (DE&I)
+
+- Synthetic delivery figures only; DEPP 2025 for programme **shape**
+- OIA-2025-5483 reference PDFs are public/unclassified — **not** an NZSIS breach to cite
+- Always caption: *Sourced from publicly available Official Information Act (OIA) release OIA-2025-5483. © Crown Copyright.*
+- Never use NZDF logos / government emblems as endorsement
+- Keep Streamlit OIA captions in `dei-pmo-dashboard/app.py` (header + sidebar)

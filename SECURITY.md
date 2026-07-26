@@ -25,6 +25,16 @@ Never commit:
 
 Use `.env.example` as the template for required variable names only.
 
+## Crown Copyright and government emblems (DE&I PMO)
+
+OIA-2025-5483 reference PDFs under `dei-pmo-dashboard/docs/oia-reference/` are public/unclassified but remain **© Crown Copyright**. When displaying them (or framing the DE&I demo against that public release):
+
+1. Keep the OIA attribution caption visible
+2. Do not use NZDF logos or the NZ Government coat of arms in a way that implies official endorsement
+3. Do not treat Crown PDFs as MIT-licensed application code
+
+See [GOVERNANCE.md](GOVERNANCE.md) for the full security-vs-copyright policy.
+
 ## Scraping and automation
 
 Phase 2 stealth/apply features must not:

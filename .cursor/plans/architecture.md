@@ -48,6 +48,20 @@ Regenerate with `generate_fnb_data.py` / `generate_mock_data.py`. All figures sy
 
 
 
+**DE&I standalone publish:** https://github.com/reversesingularity/dei-pmo-dashboard
+
+
+
+- Comprehensive README + `docs/assets/` chart/architecture gallery
+
+- OIA-2025-5483 PDFs in `docs/oia-reference/` (© Crown Copyright; not MIT)
+
+- Live UI must show OIA caption in header + sidebar (`app.py`)
+
+- Security stance: public OIA release → unclassified / not an NZSIS breach to cite; Crown Copyright + emblem rules still apply (see `GOVERNANCE.md`)
+
+
+
 ## Slice 2: Stealth + Auto-Submit
 
 

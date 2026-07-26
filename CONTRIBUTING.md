@@ -55,6 +55,8 @@ Use clear, imperative subjects focused on **why**:
 - [ ] Ruff clean on touched Python paths
 - [ ] README or GOVERNANCE updated if behaviour or ethics changed
 - [ ] Synthetic-data disclaimers preserved for PMO dashboards
+- [ ] DE&I changes keep OIA-2025-5483 Crown Copyright caption (UI + docs) and do not add NZDF/government emblems as endorsement
+- [ ] If publishing the standalone DE&I app, sync https://github.com/reversesingularity/dei-pmo-dashboard as well as this monorepo path
 
 ## Code conventions
 
