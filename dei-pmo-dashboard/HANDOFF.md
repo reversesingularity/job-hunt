@@ -71,3 +71,4 @@ Optional README chart regen: `pip install kaleido` then `python scripts/export_r
 - Add NZDF/government logos to branding
 - Present synthetic EVM figures as real NZDF delivery data
 - Commit `.env`, `data/master_cv.json`, or secrets into either repo
+- Commit personal CV PDFs or `output/` tailored PDFs (global `*.pdf` ignore; only `docs/oia-reference/*.pdf` is excepted)

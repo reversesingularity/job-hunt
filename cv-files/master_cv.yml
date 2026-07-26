@@ -34,6 +34,8 @@ skills:
   - {name: "data visualisation", level: working}
   - {name: "dashboards", level: working}
   - {name: "crystal reports", level: working}
+  - {name: "sap (hr)", level: core}
+  - {name: "sap (srm) — procurement", level: core}
   - {name: "process improvement", level: working}
   - {name: "customer support", level: core}
   - {name: "problem solving", level: core}
@@ -51,18 +53,23 @@ skills:
   - {name: "llm", level: familiar}
 
 experience:
-  - role: "Customer Support Agent — Defence Shared Services Group (DSSG)"
+  - role: "Customer Experience Representative — Defence Shared Services Group (DSSG)"
     employer: "New Zealand Defence Force"
     location: "Auckland, New Zealand"
     start: "Feb 2017"
     end: "Present"
+    note: "Role formerly titled Customer Support Agent."
     bullets:
+      - text: "Administer NZDF ID cards, Base ID cards, and site/building access cards — part of the process for mobilising personnel and contractors onto secure bases."
+        skills: ["stakeholder communication", "customer support", "problem solving"]
       - text: "Monitor, update and maintain device databases (mobile fleet and MFD printer fleet), and complete monthly and ad-hoc reporting for the DSSG."
         skills: ["reporting", "sql", "data modelling", "problem solving"]
       - text: "Participate in DSSG process-improvement working groups, adopting continuous improvement to add value for internal and external customers."
         skills: ["process improvement", "stakeholder communication"]
-      - text: "Manage vendor and supplier relationships (Vodafone, Fuji Xerox), NZDF contract administration, and accounts payable/receivable."
-        skills: ["stakeholder communication", "customer support"]
+      - text: "Manage vendor and supplier relationships (Vodafone, Fuji Xerox), NZDF contract administration, procurement and accounts payable/receivable — SAP end user across the HR and SRM (Supplier Relationship Management) modules."
+        skills: ["stakeholder communication", "customer support", "sap (srm) — procurement", "sap (hr)"]
+      - text: "Daily end-user of SAP (HR module) across nine years of DSSG shared-services work."
+        skills: ["sap (hr)", "reporting"]
       - text: "Awarded the NZDF DSSG 2019 People's Choice Trophy (innovation and relationship building) and 2019 Supporting Those Who Serve Award (customer service)."
         skills: ["customer support", "stakeholder communication"]
 
@@ -78,6 +85,8 @@ experience:
         skills: ["problem solving", "data modelling", "reporting"]
       - text: "Produced performance and utilisation reporting across a 30,500 km, 7-segment submarine and terrestrial network with thousands of multi-vendor elements; contributed to the OSS Phase 4 project automating SCCN performance reporting."
         skills: ["reporting", "etl", "process improvement"]
+      - text: "Maintained vendor/supplier relationships and SLA accountability with Alcatel-Lucent, Ciena/Nortel and Boss Portal."
+        skills: ["stakeholder communication", "reporting"]
 
   - role: "Immigration Officer — Temporary Entry Visa Team"
     employer: "Immigration New Zealand, MBIE"
@@ -91,6 +100,8 @@ experience:
         skills: ["process improvement", "stakeholder communication"]
       - text: "Contributed to team timeliness, with at least 92% of applications decided within 25 days."
         skills: ["reporting", "problem solving"]
+      - text: "Used SAP (HR module) throughout four years at MBIE."
+        skills: ["sap (hr)"]
 
   - role: "Client Service Officer / Site Supervisor"
     employer: "Australian Embassy Manila (DIAC; AusAID)"
@@ -101,6 +112,15 @@ experience:
       - text: "Processed and assessed visa applications (business, visitor, transit) and managed public money as appointed Sub-Collector; supervised 50+ contractors on a blast-resistant building project for AusAID."
         skills: ["customer support", "process improvement", "stakeholder communication"]
 
+  - role: "Client Service Officer — Temporary/Business & Permanent Visas"
+    employer: "Department of Immigration and Citizenship (DIAC), Australian Embassy Manila"
+    location: "Manila, Philippines"
+    start: "2005"
+    end: "2007"
+    bullets:
+      - text: "Processed and assessed visa applications (business, visitor, transit); appointed Sub-Collector accountable for public money under Chief Executive Instruction 2."
+        skills: ["customer support", "process improvement", "problem solving"]
+
   - role: "Account Specialist — San Miguel Beer Division"
     employer: "San Miguel Corporation"
     location: "Manila, Philippines"
@@ -109,6 +129,24 @@ experience:
     bullets:
       - text: "Drove cross-sell optimisation across a sales territory, consistently reaching ~110% of monthly forecast and signing 170 new exclusivity accounts."
         skills: ["reporting", "process improvement"]
+
+  - role: "Associate Operations Manager"
+    employer: "Bank of America"
+    location: "Manila, Philippines"
+    start: "1996"
+    end: "1999"
+    bullets:
+      - text: "Managed banking operations processes in the banking and finance sector."
+        skills: ["process improvement", "customer support"]
+
+  - role: "Complaints Officer"
+    employer: "PLDT Inc."
+    location: "Manila, Philippines"
+    start: "1993"
+    end: "1996"
+    bullets:
+      - text: "Handled customer complaints and resolution for a major telecommunications provider."
+        skills: ["customer support", "problem solving"]
 
 projects:
   - name: "Electron Launch Operations Data Platform"
@@ -127,13 +165,13 @@ projects:
 education:
   - qualification: "BSc, Commerce"
     institution: "San Beda University, Manila"
-    year: "[year]"
+    year: "1990–1994"
   - qualification: "Advanced Engineering Foundation Studies Certificate"
     institution: "Manukau Institute of Technology"
-    year: "[year]"
+    year: ""
   - qualification: "Mechanical Engineering (2 years, not completed)"
     institution: "Don Bosco Technical College, Manila"
-    year: ""
+    year: "1987–1989"
 
 certifications:
   - "DataCamp — Data Engineer (Professional)"
@@ -141,5 +179,18 @@ certifications:
   - "DataCamp — AI Engineer for Developers (Associate)"
   - "DataCamp — AI Engineer for Data Scientists (Associate)"
   - "DataCamp — Python Data Associate"
-  - "ITIL Foundation (trained)"
+  - "ITIL Foundation (trained, Spark NZ)"
   - "Lean Six Sigma White Belt (Defence Excellence)"
+  - "Dale Carnegie — Skills for Success Program"
+  - "INZ Brandheart — Resilience at Work"
+  - "INZ Brandheart — Getting Beyond Busy (Time Management Strategy)"
+
+# Additional systems/tools training (from prior CVs): SQL Server Reporting
+# Services, MS SQL Server Management Studio, Crystal Reports v.10, Power BI DAX,
+# Oracle Hyperion Reporting, SaS Enterprise, MS Visio, DDMS.
+
+# Security clearance: NZDF CONFIDENTIAL (current; matches the PD's "CV" requirement).
+# Driver's licence: clean, unencumbered, manual & automatic, valid to July 2029.
+# Residency: NZ citizen (11 yrs); NZ resident since 2008 (emigrated from Philippines).
+# Portfolio scale (GitHub reversesingularity): 31 self-initiated projects + 82
+# DataCamp certification projects = 113 total.
